@@ -11,13 +11,12 @@ def introduction_with_language (name, language)
 puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
-def introduction_with_language_optional (name,language)
-   if(language!="Ruby")
+def introduction_with_language_optional (name, language)
+   #puts language
+  if (language==undef)
+   language="Ruby"
+  end
 puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
-else
-  language="Ruby"
-puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
-end
 end
 
 
