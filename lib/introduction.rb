@@ -13,7 +13,7 @@ end
 
 def introduction_with_language_optional (name, language)
    #puts language
-  if (language==undef)
+  if (language==undefined)
    language="Ruby"
   end
 puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
