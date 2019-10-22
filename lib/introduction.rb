@@ -4,9 +4,9 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 def introduction(name, language)
-  if (!language)
-    language="Ruby"
-  end
+  #if (!language)
+   # language="Ruby"
+  #end
 puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
